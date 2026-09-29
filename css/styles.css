@@ -69,6 +69,10 @@ footer {
   z-index: 1;
 }
 
+.main {
+  padding-top: 40px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -76,6 +80,12 @@ footer {
   gap: 16px;
   padding: 22px 5vw;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background: #080d19;
 }
 
 .logo {
